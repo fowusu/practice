@@ -9,7 +9,7 @@ MyString newObj2 = new MyString();
 MyString newObj3 = new MyString();
 //newObj.loop(); 
 //newObj2.Find("Shafeeq Shafeeq is here ShafeeqS","Shafeeq");
-	newObj2.replace("Shafeeq ShafeeqS is here ShafeeqS","Shafeeq","ABC");
+	newObj2.replace("Shafeeq ShafeeqS is here ShafeeqSyhyf","Shafeeq","***");
 }
 
 }
@@ -96,6 +96,8 @@ class MyString{
 					else {
 						newmessage+=msg.substring(i, i + 1);
 					}
+				}else {
+					newmessage+=msg.substring(i, i + 1);
 				}
 			}
 			else {
